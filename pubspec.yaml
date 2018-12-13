@@ -1,14 +1,17 @@
 name: fontfaceobserver
 description: A Dart wrapper on Javascript library fontfaceobserver v2.0.13(https://github.com/bramstein/fontfaceobserver)
-version: 2.0.13
+version: 2.0.13+1
 #homepage: https://www.example.com
 author: Henri Chen <henrichen@potix.com>
 
 environment:
-  sdk: '>=1.20.1 <2.0.0'
+  sdk: '>=2.1.0 <3.0.0'
 
 dependencies:
   js: any
 
 dev_dependencies:
-  test: ^0.12.0
+  test: any
+  build_runner: any
+  build_web_compilers: any
+
